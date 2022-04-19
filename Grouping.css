@@ -1,0 +1,25 @@
+h1,
+h2,
+h3{
+background-color:pink;
+font-size:300%;
+}
+
+/*class selector*/
+.sheet{
+
+text-decoration: underline;
+text-transform: uppercase;
+}
+
+/*Id selector*/
+#hello{
+	background-color:pink;
+	color: black;
+	height: 50px;
+	
+}
+body{
+	background-image:url('kit.jpg');
+	background-size:40%;
+}
