@@ -1,0 +1,226 @@
+1.Basic Structure of HTML
+
+<!doctype html>
+<head>
+<title></title>
+</head>
+<body>
+</body>
+</html>
+
+
+2.Attribute is defined as which is used to control behavior of an element or control the element.
+
+Sysntax:<a herf= "path"></a>
+
+
+3.Syntax for image tag
+
+<img src="path of image"></img>
+
+
+
+4.Hyperlink is defined as Used to link the destination page.
+
+Syntax- <a herf="path">text link</a>
+
+example:
+<a herf =" "https://www.youtube.com/embed/qoq8B8ThgEM> </a>
+
+5.Syntax for creating a table
+
+<table>
+<tr>
+<th>
+</th>
+</tr>
+
+<tr>
+<td>
+</td>
+</tr>
+</table>
+
+
+6.Registration form
+
+<title></title>
+</head>
+<body>
+<!--form in html-->
+<form>
+<div>
+<label>Enter Name</label>
+<input type="text" value = "Kruti">
+</div>
+
+<div>
+<label>Enter Password</label>
+<input type="Password">
+</div>
+
+<div>
+<label>Gender</label>
+<input type="radio" name="gender">male
+<input type="radio" name="gender">female
+</div>
+
+<div>
+<label>Pets</label>
+<input type="checkbox" name="pet">Cat
+<input type="checkbox" name="pet">Dog
+<input type="checkbox" name="pet">Rabbit
+</div>
+
+<div>
+<label>Degree</label>
+<select name = "degree">
+<option> value ="Bachelor of Engeineering">BE</option>
+<option>BSc</option>
+<option>BCA</option>
+</select>
+</div>
+
+<div>
+<label>Date of Birth</label>
+<input type="date">
+</div>
+
+<div>
+<label>Age</label>
+<input type="number">
+</div>
+
+<div>
+<input type="Submit">
+</div>
+
+<div>
+<input type="Reset">
+</div>
+
+
+</form>
+</body>
+</html>
+
+
+
+
+1. Types of css
+
+*Inline Css
+*Internal Css
+*External Css
+
+1.Inline css
+syntax:
+<html>
+
+<head>
+ <title>
+   CSS Types
+ </title>
+ </head>
+<body>
+<h4 style="color: blue; font-size: x-large;">Sponsered by </h4>
+</html>
+
+2.Internal css
+Syntax:
+<html>
+
+<head>
+   <title>
+    CSS Types
+   </title>
+<style>
+selector{
+property:value;
+}
+    	</style>
+    </head>
+<body>
+<h4 style="color: blue; font-size: x-large;">Sponsered by </h4>
+</html>
+
+
+3.External css
+Syntax:
+<html>
+<head>
+ <title>
+   CSS Types
+</title>
+						
+<link href="path of the external style sheets">
+						
+ </head>
+<body>
+<h4 style="color: blue; font-size: x-large;">Sponsered by </h4>
+</html>
+
+
+
+2.Selector css will specify the design for the specific element in the html form.
+<style>
+ selector{
+property:value;
+}
+</style>
+
+
+3.
+
+3.syntax:
+	<div></div>
+div{
+    border: 2px solid yellow;
+    height: 100px;
+    width: 100px;
+}
+
+example:
+<html>
+
+<head>
+    <title>
+        css box model
+    </title>
+    <link rel="stylesheet" href="box.css">
+</head>
+
+<body>
+    <div class="box">
+        CSS box MODEL
+    </div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
+
+</html>
+
+
+css file...
+body {
+    margin: 0px;
+}
+
+div {
+    border: 2px solid yellow;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
